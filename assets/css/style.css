@@ -1,0 +1,206 @@
+/* Universal settings for padding and margin */
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+/* Changes the background-color for the web page */
+body {
+    background-color: #d9dcd6;
+}
+/* For the navigation area sets the padding,font-family,text and background color */
+.header {
+    padding: 20px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-color: #2a607c;
+    color: #ffffff;
+}
+/* By using the display in-block the list items in header shows in one row */
+.header h1 {
+    display: inline-block;
+    font-size: 48px;
+}
+/* To make it 2 different color in the header .seo class color is set to be different than the other part of header */
+.header h1 .seo {
+    color: #d9dcd6;
+}
+/* all div part of the header position is set */
+.header div {
+    padding-top: 15px;
+    margin-right: 20px;
+    float: right;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+}
+/* for getting rid of the list style of ul we use this attributes */
+.header div ul {
+    list-style-type: none;
+}
+
+.header div ul li {
+    display: inline-block;
+    margin-left: 25px;
+}
+/* a tag is used to reference for the page and we change color of those nav items */
+a {
+    color: #ffffff;
+    text-decoration: none;
+}
+/* it sets the font-size for paragraphs that we have */
+p {
+    font-size: 16px;
+}
+/* for webpages main background we us these attributes */
+.hero {
+    height: 800px;
+    width: 100%;
+    margin-bottom: 25px;
+    background-image: url("../images/digital-marketing-meeting.jpg");
+    background-size: cover;
+    background-position: center;
+}
+/* in the img for float-left class float left is used to float the image to left */
+.float-left {
+    float: left;
+    margin-right: 25px;
+}
+/* in the img for float-right class float left is used to float the image to left */
+.float-right {
+    float: right;
+    margin-left: 25px;
+}
+/* For the content card we set these rules and use display in block to be able to set the width and height */
+.content {
+    width: 75%;
+    display: inline-block;
+    margin-left: 20px;
+    
+}
+/* benefit card uses clear property for not allowing the items to float left */
+.benefits {
+    margin-right: 20px;
+    padding: 20px;
+    clear: both;
+    float: right;
+    width: 20%;
+    height: 100%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #2589bd;
+    border-radius: 20px;
+}
+/* margin between this content changes their color */
+.benefit-lead {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-brand {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+
+.benefit-cost {
+    margin-bottom: 32px;
+    color: #ffffff;
+}
+/* margin between h3 tags and aligns them in the center */
+.benefit-lead h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-brand h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+
+.benefit-cost h3 {
+    margin-bottom: 10px;
+    text-align: center;
+}
+/* display block displays all the images as a block element and other properties sets their margin between and width*/
+.benefit-lead img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-brand img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+
+.benefit-cost img {
+    display: block;
+    margin: 10px auto;
+    max-width: 150px;
+}
+/* for cards look in one column and has margin between them and their padding in the page */
+.search-engine-optimization {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.online-reputation-management {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    border-radius: 20px;
+}
+
+.social-media-marketing {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    background-color: #0072bb;
+    color: #ffffff;
+    border-radius: 20px;
+}
+/* sets the img height */
+.search-engine-optimization img {
+    max-height: 200px;
+}
+
+.online-reputation-management img {
+    max-height: 200px;
+}
+
+.social-media-marketing img {
+    max-height: 200px;
+}
+/* h2 tags in this div is set with font-size and margin between them */
+.search-engine-optimization h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.online-reputation-management h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+
+.social-media-marketing h2 {
+    margin-bottom: 20px;
+    font-size: 36px;
+}
+/* padding sets the position of the footer and blocks them to float anywhere and aligns them in the center */
+.footer {
+    padding: 30px;
+    clear: both;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-align: center;
+}
+
+.footer h2 {
+    font-size: 20px;
+}
