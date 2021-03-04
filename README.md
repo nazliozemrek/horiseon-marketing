@@ -9,7 +9,7 @@ A website that shows how to use marketing for the clients.
 ## Website
 [Website link](https://nazliozemrek.github.io/horiseon-marketing/)
 ## Screenshot of The Webpage
-![The mockup image displays all of the items on the page laid out in a grid with their titles overlaying the image](./images/ssforhoriseon.png)
+![The mockup image displays all of the items on the page laid out in a grid with their titles overlaying the image](./assets/images/ssforhoriseon.png)
 ## Contribution
  
 Made with ❤️ by Kaan Nazlioz
